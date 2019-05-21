@@ -1,0 +1,3 @@
+Contact: liran@snyk.io
+Preferred-Languages: en
+Canonical: https://github.com/lirantal/docker-detect-secrets/blob/master/security.txt
