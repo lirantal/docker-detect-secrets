@@ -46,7 +46,7 @@ docker run -it --rm --name detect-secrets --volume /path/to/root/project/dir:/us
 Building the image from the Dockerfile and then you may execute it locally:
 
 ```bash
-docker build --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --tag detect-secrets lirantal/detect-secrets .
+docker build --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --tag detect-secrets .
 ```
 
 # Author
