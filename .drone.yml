@@ -1,0 +1,16 @@
+kind: pipeline
+name: docker-detect-secrets
+
+steps:
+- name: docker  
+  image: plugins/docker
+  settings:
+    dockerfile: ./Dockerfile
+    username:
+      from_secret: dockerhub_username
+    password:
+      from_secret: dockerhub_password
+    repo: lirantal/detect-secrets
+    tags: latest
+    build_args:
+      - BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
