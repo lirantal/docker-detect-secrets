@@ -20,7 +20,7 @@ env:
   # github.repository as <account>/<repo>
   # instead of IMAGE_NAME: ${{ github.repository }}
   # we are going to customize the image name
-  IMAGE_NAME: ${{ github.actor }}/detect-secrets
+  IMAGE_NAME: ${{ github.repository_owner }}/detect-secrets
 
 jobs:
   build_and_publish:
