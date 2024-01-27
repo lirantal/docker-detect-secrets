@@ -2,6 +2,8 @@
 
 A docker image to enable invoking of Yelp's [detect-secrets](https://github.com/Yelp/detect-secrets) hook command without having to install the python package.
 
+This image is deployed to Docker Hub at: https://hub.docker.com/r/lirantal/detect-secrets
+
 # Usage
 
 ## Detecting secrets in a project
