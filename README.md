@@ -51,6 +51,10 @@ Building the image from the Dockerfile and then you may execute it locally:
 docker build --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --tag detect-secrets .
 ```
 
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
+
 # Author
 
 Liran Tal <liran@snyk.io>
